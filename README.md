@@ -1,7 +1,10 @@
 # Amazon-Fine-Food-Reviews
-This notebook showcases my analysis on Amazon-Fine-Food-Reviews dataset. (Source: https://www.kaggle.com/snap/amazon-fine-food-reviews)
-The objective here is to <b> determine the polarity of reviews given in the dataset </b>. We have to correctly classify each review as positive or negative.
-This is a <b> Supervised Learning </b> problem.
+This notebook showcases my analysis on Amazon-Fine-Food-Reviews dataset. (Source: https://www.kaggle.com/snap/amazon-fine-food-reviews). This is one the most elaborated analysis on AFR dataset you'll find out there.
+The objective here is to train a model which can <b> determine the polarity of a review given to it. </b>. We'll split our original dataset into train and test data at the very begining. We'll use train dataset to train our model and test data to check the model's performance (obviously). This is a <b> Supervised Learning </b> problem.
+
+## Data Cleaning
+Steps followed to clean our data:
+1. 
 
 I have used following representations of our review text (I've used the each representation seperatley):
 1. Unigram and Bigram BOWs
